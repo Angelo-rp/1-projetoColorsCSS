@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
+}
+
+.maker {
+    height: 25px;
+    width: 200px;
+    margin: 10px auto;
+}
+
+.red {
+    /*                     red  green  blue*/
+    background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+    /*           x   y  radius spread color   */
+    box-shadow: 0 0 20px 0 rgba(83, 14, 14, 80%)
+}
+
+.cap {
+    width: 70px;
+    height: 25px;
+}
+
+.sleeve {
+    width: 110px;
+    height: 25px;
+    background: rgba(255, 255, 255, 50%);
+    border-left: 10px double rgba(0, 0, 0, 75%)
+}
+
+.cap, .sleeve {
+    display: inline-block;
+}
+
+.green {
+    background: linear-gradient(#006400, #00FF00, #6B8E23);
+    box-shadow: 0 0 20px 0 rgba(107,142,35, 80%);
+}
+
+.blue {
+    background: linear-gradient(#191970, #1E90FF, #0000CD);
+    box-shadow: 0 0 20px 0 rgba(112,128,144, 80%);
+}
